@@ -5,6 +5,13 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -37,6 +44,29 @@ const features = [
   },
 ];
 
+const bannerImages = [
+  {
+    src: "https://images.unsplash.com/photo-1664331746481-bbae5490f39e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxNeWFubWFyJTIwQXJteSUyMEZsYWd8ZW58MHx8fHwxNzU3MTc0ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    alt: "Myanmar Army personnel in a parade",
+    hint: "myanmar army"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1599839496464-984a11fa3565?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNeWFubWFyJTIwYXJteXxlbnwwfHx8fDE3NTczNTQ0MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    alt: "Myanmar soldiers standing in formation",
+    hint: "myanmar soldiers"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1600615197828-59c792440386?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxNeWFubWFyJTIwc29sZGllcnN8ZW58MHx8fHwxNzU3MzU0NTIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    alt: "A display of military vehicles and personnel",
+    hint: "military parade"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1563201796-91060f7e1554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxNeWFubWFyJTIwYXJteXxlbnwwfHx8fDE3NTczNTQ0MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    alt: "Myanmar soldier on guard duty",
+    hint: "myanmar soldier"
+  }
+];
+
 export default function Home() {
   return (
     <main>
@@ -49,15 +79,25 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative w-full aspect-[4/1] overflow-hidden rounded-lg">
-          <Image
-            src="https://images.unsplash.com/photo-1664331746481-bbae5490f39e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxNeWFubWFyJTIwQXJteSUyMEZsYWd8ZW58MHx8fHwxNzU3MTc0ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
-            alt="Advertisement banner"
-            fill
-            className="object-cover"
-            data-ai-hint="Myanmar Army Flag"
-          />
-        </div>
+        <Carousel className="w-full" opts={{ loop: true }}>
+          <CarouselContent>
+            {bannerImages.map((image, index) => (
+              <CarouselItem key={index}>
+                <div className="relative w-full aspect-[4/1] overflow-hidden rounded-lg">
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    fill
+                    className="object-cover"
+                    data-ai-hint={image.hint}
+                  />
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="left-4" />
+          <CarouselNext className="right-4" />
+        </Carousel>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {features.map((feature) => (
