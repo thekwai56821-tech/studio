@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
-import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
-import MainSidebar from "@/components/layout/main-sidebar";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -36,11 +34,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <SidebarProvider>
-            <MainSidebar />
-            {children}
-            <Toaster />
-          </SidebarProvider>
+          {children}
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

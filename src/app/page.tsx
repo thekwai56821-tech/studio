@@ -5,7 +5,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { SidebarInset } from "@/components/ui/sidebar";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -40,50 +39,48 @@ const features = [
 
 export default function Home() {
   return (
-    <SidebarInset>
-      <main>
-        <div className="flex flex-col gap-8">
-          <div className="relative overflow-hidden">
-             <div className="w-full overflow-x-hidden">
-              <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-blue-800 animate-marquee whitespace-nowrap">
-                နမ့်ခမ်းမြို့မ ဌာနေပြည်သူ့စစ်အဖွဲ့ Data Management System
-              </h1>
-            </div>
-          </div>
-
-          <div className="relative w-full aspect-[4/1] overflow-hidden rounded-lg">
-            <Image
-              src="https://images.unsplash.com/photo-1664331746481-bbae5490f39e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxNeWFubWFyJTIwQXJteSUyMEZsYWd8ZW58MHx8fHwxNzU3MTc0ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
-              alt="Advertisement banner"
-              fill
-              className="object-cover"
-              data-ai-hint="Myanmar Army Flag"
-            />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {features.map((feature) => (
-              <Link href={feature.href} key={feature.title} className="group">
-                <Card className="h-full transition-all duration-200 ease-in-out group-hover:shadow-lg group-hover:-translate-y-1">
-                  <CardHeader>
-                    <div className="flex justify-between items-start">
-                      <div>
-                        <CardTitle className="font-headline text-2xl">
-                          {feature.title}
-                        </CardTitle>
-                        <CardDescription className="mt-2">
-                          {feature.description}
-                        </CardDescription>
-                      </div>
-                      <ArrowRight className="size-5 text-muted-foreground transition-transform group-hover:translate-x-1" />
-                    </div>
-                  </CardHeader>
-                </Card>
-              </Link>
-            ))}
+    <main>
+      <div className="flex flex-col gap-8 p-4 sm:p-6 lg:p-8">
+        <div className="relative overflow-hidden">
+            <div className="w-full overflow-x-hidden">
+            <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-blue-800 animate-marquee whitespace-nowrap">
+              နမ့်ခမ်းမြို့မ ဌာနေပြည်သူ့စစ်အဖွဲ့ Data Management System
+            </h1>
           </div>
         </div>
-      </main>
-    </SidebarInset>
+
+        <div className="relative w-full aspect-[4/1] overflow-hidden rounded-lg">
+          <Image
+            src="https://images.unsplash.com/photo-1664331746481-bbae5490f39e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxNeWFubWFyJTIwQXJteSUyMEZsYWd8ZW58MHx8fHwxNzU3MTc0ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+            alt="Advertisement banner"
+            fill
+            className="object-cover"
+            data-ai-hint="Myanmar Army Flag"
+          />
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {features.map((feature) => (
+            <Link href={feature.href} key={feature.title} className="group">
+              <Card className="h-full transition-all duration-200 ease-in-out group-hover:shadow-lg group-hover:-translate-y-1">
+                <CardHeader>
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <CardTitle className="font-headline text-2xl">
+                        {feature.title}
+                      </CardTitle>
+                      <CardDescription className="mt-2">
+                        {feature.description}
+                      </CardDescription>
+                    </div>
+                    <ArrowRight className="size-5 text-muted-foreground transition-transform group-hover:translate-x-1" />
+                  </div>
+                </CardHeader>
+              </Card>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </main>
   );
 }
