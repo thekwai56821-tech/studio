@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const features = [
   {
-    title: "Component Library",
+    title: "နမ့်ခမ်းမြို့မ ဌာနေပြည်သူ့စစ် အဖွဲ့ ဌာနချုပ်",
     description: "Explore reusable UI components with Myanmar aesthetics.",
     href: "/components",
   },
@@ -36,7 +36,7 @@ export default function Home() {
     <SidebarInset>
       <main className="p-4 sm:p-6 lg:p-8">
         <div className="flex flex-col gap-8">
-          <div className="text-center relative overflow-hidden">
+          <div className="relative overflow-hidden">
              <div className="w-full overflow-x-hidden">
               <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-blue-600 animate-marquee whitespace-nowrap">
                 နမ့်ခမ်းမြို့မဌာနေပြည်သူ့စစ်အဖွဲ့ Data Management System
