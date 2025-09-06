@@ -7,7 +7,7 @@
   :root {
     --background: 60 56% 91%;
     --foreground: 20 14% 4%;
-    --card: 60 56% 91%;
+    --card: 60 56% 91% / 0.8;
     --card-foreground: 20 14% 4%;
     --popover: 60 56% 91%;
     --popover-foreground: 20 14% 4%;
@@ -31,7 +31,7 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
     
-    --sidebar-background: 60 20% 96%;
+    --sidebar-background: 60 20% 96% / 0.8;
     --sidebar-foreground: 20 14% 4%;
     --sidebar-primary: 45 90% 57%;
     --sidebar-primary-foreground: 20 14% 4%;
@@ -44,7 +44,7 @@
   .dark {
     --background: 20 14% 4%;
     --foreground: 60 56% 91%;
-    --card: 20 14% 4%;
+    --card: 20 14% 4% / 0.8;
     --card-foreground: 60 56% 91%;
     --popover: 20 14% 4%;
     --popover-foreground: 60 56% 91%;
@@ -67,7 +67,7 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
 
-    --sidebar-background: 20 14% 6%;
+    --sidebar-background: 20 14% 6% / 0.8;
     --sidebar-foreground: 60 56% 91%;
     --sidebar-primary: 45 90% 57%;
     --sidebar-primary-foreground: 20 14% 4%;
@@ -84,5 +84,9 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"><g opacity="0.1"><defs><clipPath id="shield-clip"><path d="M50 0L95 20V60C95 90 65 115 50 120C35 115 5 90 5 60V20L50 0Z" /></clipPath></defs><g clip-path="url(%23shield-clip)"><rect width="100" height="40" y="0" fill="%23FECB00" /><rect width="100" height="40" y="40" fill="%2334B233" /><rect width="100" height="40" y="80" fill="%23EA2839" /><path d="M50 42.5L57.55 57.45L74.2 59.8L61.1 71.9L65.1 88.55L50 80.2L34.9 88.55L38.9 71.9L25.8 59.8L42.45 57.45L50 42.5Z" fill="white" /></g><path d="M50 0L95 20V60C95 90 65 115 50 120C35 115 5 90 5 60V20L50 0Z" fill="none" stroke="%23a3a3a3" stroke-width="4" /></g></svg>');
+    background-repeat: repeat;
+    background-size: 200px 240px;
+    backdrop-filter: blur(2px);
   }
 }
