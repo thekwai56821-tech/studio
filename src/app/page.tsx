@@ -46,24 +46,24 @@ const features = [
 
 const bannerImages = [
   {
-    src: "https://lh3.googleusercontent.com/pw/AP1GczP03o-2E2cWq12mG_KbS1A6D2b-a7j7C_2sZ_VpXyH-rT-A_yI-d7xX_sE_zV5r_X6pW-F_mN-kL_a_B_cQ-Jz_A=w1080-h270-no",
-    alt: "Myanmar military parade",
-    hint: "myanmar military"
+    src: "https://picsum.photos/1080/270",
+    alt: "Myanmar Army personnel on parade",
+    hint: "myanmar army"
   },
   {
-    src: "https://images.unsplash.com/photo-1549923237-65701a75b283?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNeWFubWFyJTIwdGVtcGxlfGVufDB8fHx8MTc1NzM1NTE3NHww&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Shwedagon Pagoda in Yangon",
-    hint: "myanmar temple"
+    src: "https://picsum.photos/1080/271",
+    alt: "Myanmar Navy ship at sea",
+    hint: "myanmar navy"
   },
   {
-    src: "https://images.unsplash.com/photo-1590422533892-7471a2e93b4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxNeWFubWFyJTIwbGFuZHNjYXBlfGVufDB8fHx8MTc1NzM1NTMyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Inle Lake with traditional boats",
-    hint: "myanmar landscape"
+    src: "https://picsum.photos/1080/272",
+    alt: "Myanmar Army tanks on display",
+    hint: "myanmar army"
   },
   {
-    src: "https://images.unsplash.com/photo-1620332371291-b1e58f01c23a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxNeWFubWFyJTIwdHJhZGl0aW9ufGVufDB8fHx8MTc1NzM1NTQwNHww&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Traditional Myanmar parasols",
-    hint: "myanmar tradition"
+    src: "https://picsum.photos/1080/273",
+    alt: "Myanmar Navy sailors",
+    hint: "myanmar navy"
   }
 ];
 
