@@ -20,7 +20,7 @@ const features = [
     href: "/layouts",
   },
   {
-    title: "Icon Set",
+    title: "နမ့်ခမ်းမြို့မ ဌာနေပြည်သူ့စစ် အဖွဲ့(၂)",
     description: "Custom icons representing Myanmar culture and symbols.",
     href: "/icons",
   },
