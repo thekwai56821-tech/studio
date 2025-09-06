@@ -46,8 +46,8 @@ const features = [
 
 const bannerImages = [
   {
-    src: "https://picsum.photos/1080/270",
-    alt: "Myanmar military ceremony",
+    src: "https://lh3.googleusercontent.com/pw/AP1GczP03o-2E2cWq12mG_KbS1A6D2b-a7j7C_2sZ_VpXyH-rT-A_yI-d7xX_sE_zV5r_X6pW-F_mN-kL_a_B_cQ-Jz_A=w1080-h270-no",
+    alt: "Myanmar military parade",
     hint: "myanmar military"
   },
   {
