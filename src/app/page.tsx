@@ -38,7 +38,7 @@ export default function Home() {
         <div className="flex flex-col gap-8">
           <div className="text-center relative overflow-hidden">
              <div className="w-full overflow-x-hidden">
-              <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl text-blue-600 animate-marquee whitespace-nowrap">
+              <h1 className="font-body text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl text-blue-600 animate-marquee whitespace-nowrap">
                 နမ့်ခမ်းမြို့မဌာနေပြည်သူ့စစ်အဖွဲ့ Data Management System
               </h1>
             </div>
