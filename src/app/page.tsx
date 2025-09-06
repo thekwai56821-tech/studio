@@ -40,7 +40,7 @@ const features = [
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-col gap-8 p-4 sm:p-6 lg:p-8">
+      <div className="flex flex-col gap-8 p-4 sm:p-6 lg:p-8 relative z-10">
         <div className="relative overflow-hidden">
             <div className="w-full overflow-x-hidden">
             <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-blue-800 animate-marquee whitespace-nowrap">
@@ -62,7 +62,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {features.map((feature) => (
             <Link href={feature.href} key={feature.title} className="group">
-              <Card className="h-full transition-all duration-200 ease-in-out group-hover:shadow-lg group-hover:-translate-y-1">
+              <Card className="h-full transition-all duration-200 ease-in-out group-hover:shadow-lg group-hover:-translate-y-1 bg-white/30">
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>

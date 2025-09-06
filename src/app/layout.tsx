@@ -36,7 +36,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="h-screen border-4 border-blue-800 relative">
-            <StarIcon className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 text-white" />
+            <StarIcon className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 text-white/50" />
             {children}
           </div>
           <Toaster />
