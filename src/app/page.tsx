@@ -46,22 +46,22 @@ const features = [
 
 const bannerImages = [
   {
-    src: "https://picsum.photos/1080/270",
+    src: "https://images.unsplash.com/photo-1619235912839-7726c6d9072b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxteWFubWFyJTIwYXJteXxlbnwwfHx8fDE3NTcxODE5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
     alt: "Myanmar Army personnel on parade",
     hint: "myanmar army"
   },
   {
-    src: "https://picsum.photos/1080/271",
+    src: "https://images.unsplash.com/photo-1584289262029-ba24402685b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxteWFubWFyJTIwbmF2eXxlbnwwfHx8fDE3NTcxODE5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     alt: "Myanmar Navy ship at sea",
     hint: "myanmar navy"
   },
   {
-    src: "https://picsum.photos/1080/272",
+    src: "https://images.unsplash.com/photo-1723862437091-1c05c880b6c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxteWFubWFyJTIwYXJteXxlbnwwfHx8fDE3NTcxODE5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
     alt: "Myanmar Army tanks on display",
     hint: "myanmar army"
   },
   {
-    src: "https://picsum.photos/1080/273",
+    src: "https://images.unsplash.com/photo-1726450663094-b90adfeea0f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxteWFubWFyJTIwbmF2eXxlbnwwfHx8fDE3NTcxODE5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     alt: "Myanmar Navy sailors",
     hint: "myanmar navy"
   }
