@@ -73,12 +73,12 @@ export default function Home() {
     <main className="relative">
       <div className="absolute top-0 left-0 w-full z-20 bg-background/50 backdrop-blur-sm p-4">
         <div className="w-full overflow-x-hidden">
-          <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-blue-800 animate-marquee whitespace-nowrap">
+          <h1 className="font-headline text-2xl font-bold tracking-tight text-blue-800 animate-marquee whitespace-nowrap">
             နမ့်ခမ်းမြို့မ ဌာနေပြည်သူ့စစ်အဖွဲ့ Data Management System
           </h1>
         </div>
       </div>
-      <div className="flex flex-col gap-8 p-4 sm:p-6 lg:p-8 relative z-10 pt-32">
+      <div className="flex flex-col gap-8 p-4 sm:p-6 lg:p-8 relative z-10 pt-24">
         <Carousel className="w-full" opts={{ loop: true }}>
           <CarouselContent>
             {bannerImages.map((image, index) => (
