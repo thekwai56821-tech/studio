@@ -64,6 +64,11 @@ const bannerImages = [
     src: "https://images.unsplash.com/photo-1620332371291-b1e58f01c23a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxNeWFubWFyJTIwdHJhZGl0aW9ufGVufDB8fHx8MTc1NzM1NTQwNHww&ixlib=rb-4.1.0&q=80&w=1080",
     alt: "Traditional Myanmar parasols",
     hint: "myanmar tradition"
+  },
+  {
+    src: "https://picsum.photos/1080/270",
+    alt: "New banner image",
+    hint: "new image"
   }
 ];
 
