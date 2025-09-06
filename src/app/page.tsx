@@ -46,24 +46,24 @@ const features = [
 
 const bannerImages = [
   {
-    src: "https://images.unsplash.com/photo-1664331746481-bbae5490f39e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxNeWFubWFyJTIwQXJteSUyMEZsYWd8ZW58MHx8fHwxNzU3MTc0ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Myanmar Army personnel in a parade",
-    hint: "myanmar army"
+    src: "https://images.unsplash.com/photo-1587499682545-56831454687e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxNeWFubWFyJTIwcGFnb2RhfGVufDB8fHx8MTc1NzM1NTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    alt: "Bagan pagodas at sunset",
+    hint: "myanmar pagoda"
   },
   {
-    src: "https://images.unsplash.com/photo-1599839496464-984a11fa3565?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNeWFubWFyJTIwYXJteXxlbnwwfHx8fDE3NTczNTQ0MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Myanmar soldiers standing in formation",
-    hint: "myanmar soldiers"
+    src: "https://images.unsplash.com/photo-1549923237-65701a75b283?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNeWFubWFyJTIwdGVtcGxlfGVufDB8fHx8MTc1NzM1NTE3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    alt: "Shwedagon Pagoda in Yangon",
+    hint: "myanmar temple"
   },
   {
-    src: "https://images.unsplash.com/photo-1600615197828-59c792440386?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxNeWFubWFyJTIwc29sZGllcnN8ZW58MHx8fHwxNzU3MzU0NTIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "A display of military vehicles and personnel",
-    hint: "military parade"
+    src: "https://images.unsplash.com/photo-1590422533892-7471a2e93b4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxNeWFubWFyJTIwbGFuZHNjYXBlfGVufDB8fHx8MTc1NzM1NTMyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    alt: "Inle Lake with traditional boats",
+    hint: "myanmar landscape"
   },
   {
-    src: "https://images.unsplash.com/photo-1563201796-91060f7e1554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxNeWFubWFyJTIwYXJteXxlbnwwfHx8fDE3NTczNTQ0MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Myanmar soldier on guard duty",
-    hint: "myanmar soldier"
+    src: "https://images.unsplash.com/photo-1620332371291-b1e58f01c23a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxNeWFubWFyJTIwdHJhZGl0aW9ufGVufDB8fHx8MTc1NzM1NTQwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    alt: "Traditional Myanmar parasols",
+    hint: "myanmar tradition"
   }
 ];
 
