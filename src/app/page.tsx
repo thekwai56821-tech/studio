@@ -46,9 +46,9 @@ const features = [
 
 const bannerImages = [
   {
-    src: "https://images.unsplash.com/photo-1587499682545-56831454687e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxNeWFubWFyJTIwcGFnb2RhfGVufDB8fHx8MTc1NzM1NTI1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Bagan pagodas at sunset",
-    hint: "myanmar pagoda"
+    src: "https://picsum.photos/1080/270",
+    alt: "Myanmar military ceremony",
+    hint: "myanmar military"
   },
   {
     src: "https://images.unsplash.com/photo-1549923237-65701a75b283?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNeWFubWFyJTIwdGVtcGxlfGVufDB8fHx8MTc1NzM1NTE3NHww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -64,11 +64,6 @@ const bannerImages = [
     src: "https://images.unsplash.com/photo-1620332371291-b1e58f01c23a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxNeWFubWFyJTIwdHJhZGl0aW9ufGVufDB8fHx8MTc1NzM1NTQwNHww&ixlib=rb-4.1.0&q=80&w=1080",
     alt: "Traditional Myanmar parasols",
     hint: "myanmar tradition"
-  },
-  {
-    src: "https://picsum.photos/1080/270",
-    alt: "New banner image",
-    hint: "new image"
   }
 ];
 
