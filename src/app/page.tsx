@@ -1,3 +1,4 @@
+
 import {
   Card,
   CardDescription,
@@ -23,6 +24,16 @@ const features = [
     title: "နမ့်ခမ်းမြို့မ ဌာနေပြည်သူ့စစ် အဖွဲ့(၂)",
     description: "အင်အား (၃၃ + ၅၅ = ၈၈)",
     href: "/icons",
+  },
+  {
+    title: "နမ့်ခမ်းမြို့မ ဌာနေ ပြည်သူ့စစ် အဖွဲ့(၃)",
+    description: "အင်အား ( ၃၃ + ၅၅ = ၈၈)",
+    href: "/group-3",
+  },
+    {
+    title: "နမ့်ခမ်းမြို့မ ဌာနေ ပြည်သူ့စစ် အဖွဲ့(၄)",
+    description: "အင်အား ( ၃၃ + ၅၅ = ၈၈)",
+    href: "/group-4",
   },
   {
     title: "AI Style Suggestions",
