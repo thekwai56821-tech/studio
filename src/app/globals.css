@@ -86,3 +86,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body > div {
+  background: linear-gradient(to bottom, #FECB00 0% 33.3%, #34B233 33.3% 66.6%, #EA2839 66.6% 100%);
+}

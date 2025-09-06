@@ -34,7 +34,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="border-4 border-blue-800 h-screen">
+          <div className="h-screen border-4 border-blue-800">
             {children}
           </div>
           <Toaster />
