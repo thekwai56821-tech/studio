@@ -27,14 +27,16 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-body antialiased border-4 border-blue-800">
+      <body className="font-body antialiased">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <div className="border-4 border-blue-800 min-h-screen">
+            {children}
+          </div>
           <Toaster />
         </ThemeProvider>
       </body>
