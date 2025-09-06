@@ -45,8 +45,8 @@ export default function Home() {
         <div className="flex flex-col gap-8">
           <div className="relative overflow-hidden">
              <div className="w-full overflow-x-hidden">
-              <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-blue-600 animate-marquee whitespace-nowrap">
-                နမ့်ခမ်းမြို့မဌာနေပြည်သူ့စစ်အဖွဲ့ Data Management System
+              <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-blue-800 animate-marquee whitespace-nowrap">
+                နမ့်ခမ်းမြို့မ ဌာနေပြည်သူ့စစ်အဖွဲ့ Data Management System
               </h1>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 sm:p-6 lg:p-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {features.map((feature) => (
               <Link href={feature.href} key={feature.title} className="group">
                 <Card className="h-full transition-all duration-200 ease-in-out group-hover:shadow-lg group-hover:-translate-y-1">
