@@ -36,9 +36,9 @@ export default function Home() {
     <SidebarInset>
       <main className="p-4 sm:p-6 lg:p-8">
         <div className="flex flex-col gap-8">
-          <div className="text-center">
-            <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-              NanKham Myoma Militia
+          <div className="text-center relative overflow-hidden">
+            <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl text-blue-600 animate-slide-in">
+              နမ့်ခမ်းမြို့မဌာနေပြည်သူ့စစ်အဖွဲ့ Data Management System
             </h1>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
               A design system and component library inspired by the rich
