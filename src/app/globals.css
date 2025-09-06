@@ -84,6 +84,5 @@
   }
   body {
     @apply bg-background text-foreground;
-    background: linear-gradient(to bottom, #FECB00 0%, #FECB00 33.33%, #34B233 33.33%, #34B233 66.66%, #EA2839 66.66%, #EA2839 100%);
   }
 }
