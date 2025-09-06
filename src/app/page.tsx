@@ -61,8 +61,8 @@ const bannerImages = [
     hint: "myanmar army"
   },
   {
-    src: "https://images.unsplash.com/photo-1726450663094-b90adfeea0f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxteWFubWFyJTIwbmF2eXxlbnwwfHx8fDE3NTcxODE5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Myanmar Navy sailors",
+    src: "https://images.unsplash.com/photo-1543787098-035d81944517?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxteWFubWFyJTIwbmF2eXxlbnwwfHx8fDE3NTcxODE5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    alt: "Myanmar Navy ship",
     hint: "myanmar navy"
   }
 ];
