@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
+import StarIcon from "@/components/icons/star-icon";
 
 export const metadata: Metadata = {
   title: "NanKham Myoma Militia",
@@ -34,7 +35,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="h-screen border-4 border-blue-800">
+          <div className="h-screen border-4 border-blue-800 relative">
+            <StarIcon className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 text-white" />
             {children}
           </div>
           <Toaster />
