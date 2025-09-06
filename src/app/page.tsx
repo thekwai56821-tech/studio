@@ -8,6 +8,7 @@ import {
 import { SidebarInset } from "@/components/ui/sidebar";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const features = [
   {
@@ -53,6 +54,16 @@ export default function Home() {
                 နမ့်ခမ်းမြို့မဌာနေပြည်သူ့စစ်အဖွဲ့ Data Management System
               </h1>
             </div>
+          </div>
+
+          <div className="relative w-full aspect-[4/1] overflow-hidden rounded-lg">
+            <Image
+              src="https://picsum.photos/1200/300"
+              alt="Advertisement banner"
+              fill
+              className="object-cover"
+              data-ai-hint="advertisement banner"
+            />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
