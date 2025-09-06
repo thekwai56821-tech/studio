@@ -21,7 +21,7 @@ const features = [
   },
   {
     title: "နမ့်ခမ်းမြို့မ ဌာနေပြည်သူ့စစ် အဖွဲ့(၂)",
-    description: "Custom icons representing Myanmar culture and symbols.",
+    description: "အင်အား (၃၃ + ၅၅ = ၈၈)",
     href: "/icons",
   },
   {
