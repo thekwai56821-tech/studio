@@ -53,11 +53,11 @@ export default function Home() {
 
           <div className="relative w-full aspect-[4/1] overflow-hidden rounded-lg">
             <Image
-              src="https://picsum.photos/1200/300"
+              src="https://images.unsplash.com/photo-1664331746481-bbae5490f39e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxNeWFubWFyJTIwQXJteSUyMEZsYWd8ZW58MHx8fHwxNzU3MTc0ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
               alt="Advertisement banner"
               fill
               className="object-cover"
-              data-ai-hint="advertisement banner"
+              data-ai-hint="Myanmar Army Flag"
             />
           </div>
 
