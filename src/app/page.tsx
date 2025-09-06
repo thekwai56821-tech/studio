@@ -11,7 +11,7 @@ import Link from "next/link";
 const features = [
   {
     title: "နမ့်ခမ်းမြို့မ ဌာနေပြည်သူ့စစ် အဖွဲ့ ဌာနချုပ်",
-    description: "Explore reusable UI components with Myanmar aesthetics.",
+    description: "အင်အား ( ၃၃ + ၅၅ = ၈၈)",
     href: "/components",
   },
   {
