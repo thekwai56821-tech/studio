@@ -41,7 +41,7 @@ const features = [
 export default function Home() {
   return (
     <SidebarInset>
-      <main className="p-4 sm:p-6 lg:p-8">
+      <main>
         <div className="flex flex-col gap-8">
           <div className="relative overflow-hidden">
              <div className="w-full overflow-x-hidden">
@@ -61,7 +61,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 sm:p-6 lg:p-8">
             {features.map((feature) => (
               <Link href={feature.href} key={feature.title} className="group">
                 <Card className="h-full transition-all duration-200 ease-in-out group-hover:shadow-lg group-hover:-translate-y-1">
