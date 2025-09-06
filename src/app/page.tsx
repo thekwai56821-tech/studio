@@ -65,11 +65,11 @@ export default function Home() {
               <Card className="h-full transition-all duration-200 ease-in-out group-hover:shadow-lg group-hover:-translate-y-1 bg-white/30">
                 <CardHeader>
                   <div className="flex justify-between items-start">
-                    <div>
-                      <CardTitle className="font-headline text-2xl">
+                    <div className="overflow-hidden">
+                      <CardTitle className="font-headline text-2xl animate-slide-in opacity-0">
                         {feature.title}
                       </CardTitle>
-                      <CardDescription className="mt-2">
+                      <CardDescription className="mt-2 animate-slide-in opacity-0 [animation-delay:0.1s]">
                         {feature.description}
                       </CardDescription>
                     </div>
