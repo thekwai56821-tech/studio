@@ -95,8 +95,8 @@ export default function Home() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="left-4" />
-          <CarouselNext className="right-4" />
+          <CarouselPrevious />
+          <CarouselNext />
         </Carousel>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
