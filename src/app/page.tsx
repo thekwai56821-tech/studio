@@ -38,14 +38,10 @@ export default function Home() {
         <div className="flex flex-col gap-8">
           <div className="text-center relative overflow-hidden">
              <div className="w-full overflow-x-hidden">
-              <h1 className="font-body text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl text-blue-600 animate-marquee whitespace-nowrap">
+              <h1 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-blue-600 animate-marquee whitespace-nowrap">
                 နမ့်ခမ်းမြို့မဌာနေပြည်သူ့စစ်အဖွဲ့ Data Management System
               </h1>
             </div>
-            <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-              A design system and component library inspired by the rich
-              cultural heritage of Myanmar.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
