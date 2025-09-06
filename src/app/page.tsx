@@ -83,7 +83,7 @@ export default function Home() {
           <CarouselContent>
             {bannerImages.map((image, index) => (
               <CarouselItem key={index}>
-                <div className="relative w-full aspect-[4/1] overflow-hidden rounded-lg">
+                <div className="relative w-full aspect-[16/9] overflow-hidden rounded-lg">
                   <Image
                     src={image.src}
                     alt={image.alt}
