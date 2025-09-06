@@ -36,11 +36,6 @@ const features = [
     description: "အင်အား ( ၃၃ + ၅၅ = ၈၈)",
     href: "/group-4",
   },
-  {
-    title: "AI Style Suggestions",
-    description: "Generate UI styles and palettes with AI.",
-    href: "/ai-stylist",
-  },
 ];
 
 export default function Home() {
