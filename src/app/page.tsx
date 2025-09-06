@@ -16,7 +16,7 @@ const features = [
   },
   {
     title: "နမ့်ခမ်းမြို့မ ဌာနေပြည်သူ့စစ် အဖွဲ့ (၁)",
-    description: "Pre-designed layouts for various screen sizes.",
+    description: "အင်အား ( ၃၃ + ၅၅ = ၈၈)",
     href: "/layouts",
   },
   {
