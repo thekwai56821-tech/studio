@@ -46,22 +46,22 @@ const features = [
 
 const bannerImages = [
   {
-    src: "https://images.unsplash.com/photo-1619235912839-7726c6d9072b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxteWFubWFyJTIwYXJteXxlbnwwfHx8fDE3NTcxODE5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    src: "https://images.unsplash.com/photo-1753488657219-862abdb37b1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxteWFubWFyJTIwYXJteXxlbnwwfHx8fDE3NTcxODE5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
     alt: "Myanmar Army personnel on parade",
     hint: "myanmar army"
   },
   {
-    src: "https://images.unsplash.com/photo-1584289262029-ba24402685b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxteWFubWFyJTIwbmF2eXxlbnwwfHx8fDE3NTcxODE5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    src: "https://images.unsplash.com/photo-1712823715723-1f64db0f4c90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxteWFubWFyJTIwbmF2eXxlbnwwfHx8fDE3NTcxODE5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     alt: "Myanmar Navy ship at sea",
     hint: "myanmar navy"
   },
   {
-    src: "https://images.unsplash.com/photo-1723862437091-1c05c880b6c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxteWFubWFyJTIwYXJteXxlbnwwfHx8fDE3NTcxODE5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    src: "https://images.unsplash.com/photo-1619235912839-7726c6d9072b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxteWFubWFyJTIwYXJteXxlbnwwfHx8fDE3NTcxODE5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
     alt: "Myanmar Army tanks on display",
     hint: "myanmar army"
   },
   {
-    src: "https://images.unsplash.com/photo-1543787098-035d81944517?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxteWFubWFyJTIwbmF2eXxlbnwwfHx8fDE3NTcxODE5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    src: "https://images.unsplash.com/photo-1737735511362-bc20cd3591bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxteWFubWFyJTIwbmF2eXxlbnwwfHx8fDE3NTcxODE5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     alt: "Myanmar Navy ship",
     hint: "myanmar navy"
   }
